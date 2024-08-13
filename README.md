@@ -6,10 +6,10 @@
 
 Em Python, escopos e namespaces são conceitos fundamentais para a organização e gerenciamento de variáveis e nomes dentro do código.
     • Escopo refere-se ao contexto no qual uma variável é acessível. Existem quatro níveis principais de escopo em Python:
-        1. Local: Variáveis definidas dentro de uma função, acessíveis apenas dentro dessa função.
-        2. Enclosing: Variáveis em funções envolventes, ou seja, em uma função dentro de outra (não na função principal).
-        3. Global: Variáveis definidas no nível do módulo, acessíveis em qualquer lugar dentro do módulo.
-        4. Built-in: Variáveis e funções incorporadas ao Python, como len() ou print().
+        1. **Local:** Variáveis definidas dentro de uma função, acessíveis apenas dentro dessa função.
+        2. **Enclosing:** Variáveis em funções envolventes, ou seja, em uma função dentro de outra (não na função principal).
+        3. **Global:** Variáveis definidas no nível do módulo, acessíveis em qualquer lugar dentro do módulo.
+        4. **Built-in:** Variáveis e funções incorporadas ao Python, como len() ou print().
     • Namespace é uma coleção de nomes mapeados para objetos. Cada escopo tem seu próprio namespace. Em outras palavras, é como um dicionário onde os nomes das variáveis são as chaves, e os valores são os objetos a que esses nomes se referem.
 Esses conceitos ajudam a evitar conflitos de nome e permitem que o Python organize o acesso e a modificação de variáveis de forma eficiente e segura.
 
@@ -20,7 +20,7 @@ Esses conceitos ajudam a evitar conflitos de nome e permitem que o Python organi
 ### 5655. CLASSES E OBJETO – CRIANDO UMA CLASSE
 
 Em Python, classes e objetos são os principais conceitos da programação orientada a objetos (OOP).
-    • Classe é um modelo ou "blueprint" que define a estrutura e o comportamento de um conjunto de objetos. Uma classe especifica os atributos (dados) e métodos (funções) que os objetos criados a partir dela terão. Pense em uma classe como um plano para construir algo, como uma planta de uma casa.
+    • **Classe** é um modelo ou "blueprint" que define a estrutura e o comportamento de um conjunto de objetos. Uma classe especifica os atributos (dados) e métodos (funções) que os objetos criados a partir dela terão. Pense em uma classe como um plano para construir algo, como uma planta de uma casa.
       
       ```
       class Car:
@@ -34,7 +34,7 @@ Em Python, classes e objetos são os principais conceitos da programação orien
       ```
       
       Neste exemplo, Car é uma classe que define um carro com atributos como make, model, e year, e um método start_engine().
-    • Objeto é uma instância de uma classe. Quando você cria um objeto a partir de uma classe, esse objeto tem as propriedades e comportamentos definidos pela classe. Cada objeto pode ter valores diferentes para seus atributos, mas todos compartilham a mesma estrutura definida pela classe.
+    • **Objeto** é uma instância de uma classe. Quando você cria um objeto a partir de uma classe, esse objeto tem as propriedades e comportamentos definidos pela classe. Cada objeto pode ter valores diferentes para seus atributos, mas todos compartilham a mesma estrutura definida pela classe.
       
       ```
       my_car = Car("Toyota", "Corolla", 2021)
@@ -60,8 +60,8 @@ class Carro():
 ```
       
 Em Python, __init__ e self são elementos essenciais para trabalhar com classes e objetos.
-__init__:
-    • O método __init__ é um método especial em Python conhecido como o construtor da classe. Ele é automaticamente chamado quando um novo objeto é criado a partir de uma classe.
+**__init__:**
+    • **O método __init__** é um método especial em Python conhecido como o construtor da classe. Ele é automaticamente chamado quando um novo objeto é criado a partir de uma classe.
     • Seu principal propósito é inicializar os atributos do objeto com valores fornecidos quando o objeto é criado.
 
 Por exemplo:
@@ -75,8 +75,8 @@ class Car:
 ```
 
 Neste exemplo, __init__ recebe três parâmetros além de self (make, model, year) e usa esses parâmetros para inicializar os atributos make, model, e year do objeto.
-self:
-    • self é uma referência ao próprio objeto que está sendo criado ou manipulado. Ele é sempre o primeiro parâmetro de qualquer método dentro de uma classe e permite acessar os atributos e métodos da instância.
+**self:**
+    • **self** é uma referência ao próprio objeto que está sendo criado ou manipulado. Ele é sempre o primeiro parâmetro de qualquer método dentro de uma classe e permite acessar os atributos e métodos da instância.
     • Quando você chama um método em um objeto, o Python automaticamente passa o objeto como o primeiro argumento para o método, e self é usado para acessar e modificar os atributos e métodos dessa instância.
 
 Por exemplo:
@@ -94,8 +94,8 @@ class Car:
 
 Aqui, self.make, self.model, e self.year referem-se aos atributos do objeto que está sendo criado. Quando você chama start_engine(), ele acessa self.make e self.model para personalizar a mensagem.
 Resumindo:
-    • __init__: Método especial usado para inicializar um objeto ao criá-lo.
-    • self: Referência ao próprio objeto, permitindo acessar e modificar seus atributos e métodos dentro das definições de classe.
+    • **__init__:** Método especial usado para inicializar um objeto ao criá-lo.
+    • **self:** Referência ao próprio objeto, permitindo acessar e modificar seus atributos e métodos dentro das definições de classe.
 
 
 

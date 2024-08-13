@@ -1,6 +1,7 @@
-## 12/08/2024 - PYTHON POO 
+## 12/08/2024 - PYTHON POO - DAY 1
 
 ### 5653. APRESENTAÇÃO
+- Iremos verificar nesse modulo o que são escopos e namespaces
 
 ### 5654. ESCOPO E NAMESPACES
 
@@ -25,11 +26,12 @@ Em Python, escopos e namespaces são conceitos fundamentais para a organização
 
 Esses conceitos ajudam a evitar conflitos de nome e permitem que o Python organize o acesso e a modificação de variáveis de forma eficiente e segura.
 
-### 5654. APRESENTAÇÃO
+### 5655. APRESENTAÇÃO
+- Iremos verificar nesse modulo o que são classes e objetos.
 
-## 13/08/2024 - PYTHON POO 
+## 13/08/2024 - PYTHON POO - DAY 2
 
-### 5655. CLASSES E OBJETO – CRIANDO UMA CLASSE
+### 5656. CLASSES E OBJETO – CRIANDO UMA CLASSE
 
 Em Python, classes e objetos são os principais conceitos da programação orientada a objetos (OOP).
 
@@ -66,6 +68,8 @@ Em resumo, classes são modelos que definem a estrutura e comportamento dos obje
 
 ### 5657. CLASSES E OBJETO – DEFININDO ATRIBUTOS
 
+- **Atributos:** São as variáveis definidas dentro de uma classe que armazenam o estado ou as características de um objeto. Cada objeto de uma classe pode ter valores diferentes para seus atributos, mas todos compartilham a mesma estrutura.
+
 Exemplo:
 
 - Crie um arquivo `carro.py` e insira o código abaixo:
@@ -101,10 +105,18 @@ Em Python, `__init__` e `self` são elementos essenciais para trabalhar com clas
 - **`self`:**
     - `self` é uma referência ao próprio objeto que está sendo criado ou manipulado.  
       Ele é sempre o primeiro parâmetro de qualquer método dentro de uma classe e permite acessar os atributos e métodos da instância.
-    - Quando você chama um método em um objeto, o Python automaticamente passa o objeto como o primeiro argumento para o método, e `self` é usado para acessar e modificar os atributos e métodos dessa instância.
+    - Quando você chama um método em um objeto, o Python automaticamExemplo:
 
-    Por exemplo:
+- Crie um arquivo `carro.py` e insira o código abaixo:
 
+    ```python
+    class Carro:
+        def __init__(self, cor, qtd_portas, tipo_combustivel, potencia):
+            self.cor = cor
+            self.qtd_portas = qtd_portas
+            self.tipo_combustivel = tipo_combustivel
+            self.potencia = potencia
+    ```
     ```python
     class Car:
         def __init__(self, make, model, year):
@@ -124,7 +136,48 @@ Resumindo:
 - **`self`:** Referência ao próprio objeto, permitindo acessar e modificar seus atributos e métodos dentro das definições de classe.
 
 
+### 5658. CLASSES E OBJETO – DEFININDO METODOS
 
+- **Métodos:** Em programação orientada a objetos, métodos são funções definidas dentro de uma classe que descrevem os comportamentos que os objetos dessa classe podem executar. Eles podem modificar o estado do objeto, interagir com outros objetos ou realizar operações específicas.
+
+Exemplo:
+
+- Crie um arquivo `carro.py` e insira o código abaixo:
+
+    ```python
+    class Carro:
+        def __init__(self, cor, qtd_portas, tipo_combustivel, potencia, qtd_combustivel, is_ligado):
+            self.cor = cor
+            self.qtd_portas = qtd_portas
+            self.tipo_combustivel = tipo_combustivel
+            self.potencia = potencia
+            self.qtd_combustivel = qtd_combustivel
+            self.is_ligado = is_ligado
+        
+        # Metodos
+
+        def abastecer(self):
+            self.qtd_combustivel += 20
+
+        def ligar(self):
+            if self.is_ligado:
+                print("O carro ja esta ligado")
+            else:
+                self.is_ligado == True
+
+        def desligar(self):
+            if self.is_ligado == False:
+                print("O carro ja esta desligado")
+            else:
+                self.is_ligado == False        
+
+
+
+
+
+
+
+    ```
 
 
 

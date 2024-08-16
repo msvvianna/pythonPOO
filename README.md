@@ -1,4 +1,4 @@
-## 15/08/2024 - PYTHON POO - DAY 1
+## 19/08/2024 - PYTHON POO - DAY 1
 
 ### 5653. APRESENTAÇÃO
 - Iremos verificar nesse modulo o que são escopos e namespaces

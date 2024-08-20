@@ -1,4 +1,4 @@
-## 19/08/2024 - PYTHON POO - DAY 1
+## 20/08/2024 - PYTHON POO - DAY 1
 
 ### 5653. APRESENTAÇÃO
 - Iremos verificar nesse modulo o que são escopos e namespaces
@@ -26,10 +26,23 @@ Em Python, escopos e namespaces são conceitos fundamentais para a organização
 
 Esses conceitos ajudam a evitar conflitos de nome e permitem que o Python organize o acesso e a modificação de variáveis de forma eficiente e segura.
 
+**Importando funções**
+
+```python
+
+    import math
+    
+    print(math.pow(2, 2))
+    print(math.factorial(5))
+    print(math.log(4, 2))
+    print(math.cos(180))
+
+```
+
 ### 5655. APRESENTAÇÃO
 - Iremos verificar nesse modulo o que são classes e objetos.
 
-## 16/08/2024 - PYTHON POO - DAY 2
+## 21/08/2024 - PYTHON POO - DAY 2
 
 ### 5656. CLASSES E OBJETO – CRIANDO UMA CLASSE
 

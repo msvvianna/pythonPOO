@@ -1,4 +1,4 @@
-## 29/08/2024 - PYTHON POO - DAY 1
+## 02/09/2024 - PYTHON POO - DAY 1
 
 ### 5653. APRESENTAÇÃO
 - Iremos verificar nesse modulo o que são escopos e namespaces
@@ -42,7 +42,7 @@ Esses conceitos ajudam a evitar conflitos de nome e permitem que o Python organi
 ### 5655. APRESENTAÇÃO
 - Iremos verificar nesse modulo o que são classes e objetos.
 
-## 30/08/2024 - PYTHON POO - DAY 2
+## 03/09/2024 - PYTHON POO - DAY 2
 
 ### 5656. CLASSES E OBJETO – CRIANDO UMA CLASSE
 

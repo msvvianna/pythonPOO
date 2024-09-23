@@ -1,9 +1,9 @@
-## 02/09/2024 - PYTHON POO - DAY 1
+## 23/09/2024 - PYTHON POO - DAY 1
 
-### 5653. APRESENTAÇÃO
+### 1. APRESENTAÇÃO
 - Iremos verificar nesse modulo o que são escopos e namespaces
 
-### 5654. ESCOPO E NAMESPACES
+### 2. ESCOPO E NAMESPACES
 
 Em Python, escopos e namespaces são conceitos fundamentais para a organização e gerenciamento de variáveis e nomes dentro do código.
 
@@ -39,12 +39,10 @@ Esses conceitos ajudam a evitar conflitos de nome e permitem que o Python organi
 
 ```
 
-### 5655. APRESENTAÇÃO
+### 3. APRESENTAÇÃO
 - Iremos verificar nesse modulo o que são classes e objetos.
 
-## 03/09/2024 - PYTHON POO - DAY 2
-
-### 5656. CLASSES E OBJETO – CRIANDO UMA CLASSE
+### 4. CLASSES E OBJETO – CRIANDO UMA CLASSE
 
 Em Python, classes e objetos são os principais conceitos da programação orientada a objetos (OOP).
 
@@ -79,7 +77,7 @@ Em Python, classes e objetos são os principais conceitos da programação orien
 
 Em resumo, classes são modelos que definem a estrutura e comportamento dos objetos, enquanto objetos são instâncias concretas dessas classes, com atributos específicos e a capacidade de executar métodos definidos na classe.
 
-### 5657. CLASSES E OBJETO – DEFININDO ATRIBUTOS
+### 5. CLASSES E OBJETO – DEFININDO ATRIBUTOS
 
 - **Atributos:** São as variáveis definidas dentro de uma classe que armazenam o estado ou as características de um objeto. Cada objeto de uma classe pode ter valores diferentes para seus atributos, mas todos compartilham a mesma estrutura.
 
@@ -148,8 +146,9 @@ Resumindo:
 - **`__init__`:** Método especial usado para inicializar um objeto ao criá-lo.
 - **`self`:** Referência ao próprio objeto, permitindo acessar e modificar seus atributos e métodos dentro das definições de classe.
 
+## 24/09/2024 - PYTHON POO - DAY 2
 
-### 5658. CLASSES E OBJETO – DEFININDO METODOS
+### 6. CLASSES E OBJETO – DEFININDO METODOS
 
 - **Métodos:** Em programação orientada a objetos, métodos são funções definidas dentro de uma classe que descrevem os comportamentos que os objetos dessa classe podem executar. Eles podem modificar o estado do objeto, interagir com outros objetos ou realizar operações específicas.
 

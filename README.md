@@ -1,4 +1,4 @@
-## 23/09/2024 - PYTHON POO - DAY 1
+# 07/10/2024 - PYTHON POO - DAY 1
 
 ### 1. APRESENTAÇÃO
 - Iremos verificar nesse modulo o que são escopos e namespaces
@@ -38,6 +38,7 @@ Esses conceitos ajudam a evitar conflitos de nome e permitem que o Python organi
     print(math.cos(180))
 
 ```
+# 08/10/2024 - PYTHON POO - DAY 2
 
 ### 3. APRESENTAÇÃO
 - Iremos verificar nesse modulo o que são classes e objetos.
@@ -145,8 +146,6 @@ Resumindo:
 
 - **`__init__`:** Método especial usado para inicializar um objeto ao criá-lo.
 - **`self`:** Referência ao próprio objeto, permitindo acessar e modificar seus atributos e métodos dentro das definições de classe.
-
-## 24/09/2024 - PYTHON POO - DAY 2
 
 ### 6. CLASSES E OBJETO – DEFININDO METODOS
 

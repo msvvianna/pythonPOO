@@ -78,6 +78,8 @@ Em Python, classes e objetos são os principais conceitos da programação orien
 
 Em resumo, classes são modelos que definem a estrutura e comportamento dos objetos, enquanto objetos são instâncias concretas dessas classes, com atributos específicos e a capacidade de executar métodos definidos na classe.
 
+# 09/10/2024 - PYTHON POO - DAY 3
+
 ### 5. CLASSES E OBJETO – DEFININDO ATRIBUTOS
 
 - **Atributos:** São as variáveis definidas dentro de uma classe que armazenam o estado ou as características de um objeto. Cada objeto de uma classe pode ter valores diferentes para seus atributos, mas todos compartilham a mesma estrutura.

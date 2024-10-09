@@ -1,4 +1,4 @@
-# 07/10/2024 - PYTHON POO - DAY 1
+# 09/10/2024 - PYTHON POO - DAY 1
 
 ### 1. APRESENTAÇÃO
 - Iremos verificar nesse modulo o que são escopos e namespaces
@@ -38,7 +38,7 @@ Esses conceitos ajudam a evitar conflitos de nome e permitem que o Python organi
     print(math.cos(180))
 
 ```
-# 08/10/2024 - PYTHON POO - DAY 2
+# 10/10/2024 - PYTHON POO - DAY 2
 
 ### 3. APRESENTAÇÃO
 - Iremos verificar nesse modulo o que são classes e objetos.
@@ -78,7 +78,7 @@ Em Python, classes e objetos são os principais conceitos da programação orien
 
 Em resumo, classes são modelos que definem a estrutura e comportamento dos objetos, enquanto objetos são instâncias concretas dessas classes, com atributos específicos e a capacidade de executar métodos definidos na classe.
 
-# 09/10/2024 - PYTHON POO - DAY 3
+# 11/10/2024 - PYTHON POO - DAY 3
 
 ### 5. CLASSES E OBJETO – DEFININDO ATRIBUTOS
 

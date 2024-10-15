@@ -80,7 +80,7 @@ Em resumo, classes são modelos que definem a estrutura e comportamento dos obje
 
 # 16/10/2024 - PYTHON POO - DAY 3
 
-### 5. CLASSES E OBJETO – DEFININDO ATRIBUTOS
+### 5. CLASSES E OBJETO – DEFININDO OS ATRIBUTOS
 
 - **Atributos:** São as variáveis definidas dentro de uma classe que armazenam o estado ou as características de um objeto. Cada objeto de uma classe pode ter valores diferentes para seus atributos, mas todos compartilham a mesma estrutura.
 

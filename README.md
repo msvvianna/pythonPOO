@@ -59,7 +59,7 @@ Em Python, classes e objetos são os principais conceitos da programação orien
             self.year = year
       
         def start_engine(self):
-            print(f"{self.make} {self.model} engine started!")
+            print(f"{self.make} {self.model} iniciado!")
     ```
 
     Neste exemplo, `Car` é uma classe que define um carro com atributos como `make`, `model`, e `year`, e um método `start_engine()`.
@@ -71,7 +71,7 @@ Em Python, classes e objetos são os principais conceitos da programação orien
 
     ```python
     my_car = Car("Toyota", "Corolla", 2021)
-    my_car.start_engine()  # Saída: Toyota Corolla engine started!
+    my_car.start_engine()  # Saída: Toyota Corolla iniciado!
     ```
 
     Aqui, `my_car` é um objeto da classe `Car`. Ele possui os valores "Toyota", "Corolla", e 2021 para os atributos `make`, `model`, e `year`, respectivamente.
